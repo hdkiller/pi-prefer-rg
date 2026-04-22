@@ -1,0 +1,36 @@
+{
+	"name": "pi-prefer-rg",
+	"version": "0.1.0",
+	"description": "A pi extension that teaches the agent to prefer ripgrep over grep.",
+	"author": "hdkiller",
+	"license": "MIT",
+	"type": "module",
+	"keywords": [
+		"pi-package",
+		"pi",
+		"ripgrep",
+		"rg",
+		"grep"
+	],
+	"files": [
+		"extensions",
+		"README.md",
+		"LICENSE"
+	],
+	"peerDependencies": {
+		"@mariozechner/pi-coding-agent": "*"
+	},
+	"pi": {
+		"extensions": [
+			"./extensions"
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hdkiller/pi-prefer-rg.git"
+	},
+	"homepage": "https://github.com/hdkiller/pi-prefer-rg#readme",
+	"bugs": {
+		"url": "https://github.com/hdkiller/pi-prefer-rg/issues"
+	}
+}
